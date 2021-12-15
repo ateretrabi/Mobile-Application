@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:id="@+id/travelCompany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="224dp"
+            android:layout_height="200dp"
+            android:layout_weight="0.9"
+            android:layout_alignParentTop="true"
+            app:srcCompat="@drawable/bus" />
+
+        <LinearLayout
+            android:id="@+id/info"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/nameCustomer"
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:text="Name" />
+
+            <TextView
+                android:id="@+id/pickupReturnAddress"
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:text="Address" />
+
+            <TextView
+                android:id="@+id/destination"
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:text="Destination" />
+
+
+            <TextView
+                android:id="@+id/numTravelers"
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:text="Travelers" />
+            <TextView
+                android:id="@+id/emailCustomer"
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:text="Email" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/contactCustomer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="@string/mailClient" />
+
+                <Button
+                    android:id="@+id/offerService"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="@string/service" />
+            </LinearLayout>
+
+
+            <!--<Button
+
+                android:id="@+id/contactCompany"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="צור קשר עם חברת הנסיעות" />-->
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

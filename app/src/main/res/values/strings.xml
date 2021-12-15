@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Way To Ride</string>
+    <string name="sign">הרשם</string>
+    <string name="login">הכנס</string>
+    <string name="welcome">ברוכים הבאים</string>
+    <string name="insertEmail">הכנס אימייל</string>
+    <string name="insertPassword">הכנס סיסמה</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Way To Ride</string>
+    <string name="nav_header_subtitle">waytoride@travel.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">נסיעות פתוחות</string>
+    <string name="menu_gallery">נסיעות החברה</string>
+    <string name="menu_slideshow">הסטוריה</string>
+    <string name="mailClient">מייל ללקוח</string>
+    <string name="service">הצע שירות</string>
+    <string name="chooseCompany">בחירת חברה</string>
+    <string name="closeTravel">סגירת הנסיעה</string>
+</resources>
